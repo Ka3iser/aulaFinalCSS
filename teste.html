@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: bisque;
+        }
+
+        .container{
+            background-color: tomato;
+            height: 600px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            background-color: brown;
+            height: 200px;
+        }
+
+        @media(max-width: 800px){
+            .card{
+                background-color: aqua;
+                color: purple;
+                font-size: 23px;
+            }
+        }
+    </style>
+    <title>teste</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">Henrique</div>
+        <div class="card">Henrique</div>
+        <div class="card">Henrique</div>
+        <div class="card">Henrique</div>
+        <div class="card">Henrique</div>
+        <div class="card">Henrique</div>
+    </div>
+</body>
+</html>
